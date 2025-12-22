@@ -4,18 +4,19 @@
   box-sizing: border-box;
 }
 
-html {
-  min-height: 100%;
-}
-
 body {
   margin: 0;
+  padding: 0;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 ul {
@@ -24,23 +25,15 @@ ul {
   list-style: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-p {
+picture {
   margin: 0;
-}
-
-button {
   padding: 0;
-  border: none;
-  background-color: transparent;
-  font: inherit;
-  color: inherit;
 }
 
+button,
 a {
-  color: inherit;
-  text-decoration: none;
+  color: currentColor;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
