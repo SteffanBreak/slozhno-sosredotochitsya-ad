@@ -19,4 +19,5 @@ jobs:
       - name: Tests
         uses: Yandex-Practicum/test-project-action@v1
         with:
-          project: 'slozhno-sosredotochitsya-ad'
+          project: 'slozhno-sosredotochitsya'
+
